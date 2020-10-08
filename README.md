@@ -1,4 +1,4 @@
-**EJERCICIO 03**
+**EJERCICIO 01**
 
 **Objetivos:**
 1. Crear una biblioteca de clases en .Net Framework con Visual Studio.
