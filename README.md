@@ -12,6 +12,7 @@
 5. Compilar el proyecto de Unity para Windows.
 
 **Procedimientos:**
+
 0. Antes de realizar el ejercicio es necesario realizar un fork de este repositorio y crear una nueva rama con vuestro nombre.
 1. La biblioteca de clases debe contener métodos para realizar operaciones básicas de sumar, restar, multiplicar y dividir entre dos factores. Estos métodos recibirán dos parámetros de tipo float que serán los factores de la operación y devolverán un valor de tipo float que será el resultado de la operación. Información relacionada: https://docs.microsoft.com/es-es/dotnet/core/tutorials/library-with-visual-studio
 2. La biblioteca de clases debe ser compilada para .Net Framework 4.
