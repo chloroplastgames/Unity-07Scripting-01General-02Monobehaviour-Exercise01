@@ -1,5 +1,9 @@
 **EJERCICIO 01**
 
+**Requisitos:**
+- Unity 2020.x
+- Visual Studio
+
 **Objetivos:**
 1. Crear una biblioteca de clases en .Net Framework con Visual Studio.
 2. Compilar la biblioteca de clases en formato .dll.
