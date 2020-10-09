@@ -68,7 +68,7 @@ public class Operations : MonoBehaviour
         {
             if(float.TryParse(_secondFactorInput.text, out B))
             { 
-                _resultText.text = Execute(A, B).ToString();
+                _resultText.text = Execute(A, B).ToString(); // b = 0 es infinito para divisiones
                 _resultText.color = Color.green;
             }
             else
