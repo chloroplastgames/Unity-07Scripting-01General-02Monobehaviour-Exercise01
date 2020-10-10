@@ -21,10 +21,10 @@ public class CanvasController : MonoBehaviour
 
     public void Compute()
     {
-        try
-        {
-            float factor1 = float.Parse(input1.text);
-            float factor2 = float.Parse(input2.text);
+        bool factor1Parsed = float.TryParse(input1.text, out float factor1);
+        bool factor2Parsed = float.TryParse(input2.text, out float factor2);
+
+        if (factor1Parsed && factor2Parsed) {
             switch (operation.value)
             {
                 case ADD:
@@ -43,11 +43,30 @@ public class CanvasController : MonoBehaviour
                     result.text = UNKNOWN_OPERATION;
                     break;
             }
-        } catch (FormatException)
+        }
+        else
         {
+            if (!factor1Parsed)
+            {
+                input1.image.color = Color.red;
+            }
+            if (!factor2Parsed)
+            {
+                input2.image.color = Color.red;
+            }
             result.text = ERROR;
-        } 
+        }
 
+    }
+
+    public void ResetInput1Color()
+    {
+        input1.image.color = Color.white;
+    }
+
+    public void ResetInput2Color()
+    {
+        input2.image.color = Color.white;
     }
 
 }
