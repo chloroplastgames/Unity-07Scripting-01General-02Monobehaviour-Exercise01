@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "wcXE+suzZO1S2kAKrleYT8J5AY1A0cdA7UpoeO2LqlGu1PWLRuwfxbw2TTe9RaY00WLtYACMIY2EFroyYtnteg==",
+  "success": true,
+  "projectFilePath": "/Users/valdeirantoniodonascimento/Projects/ClassOperaciones/OperacionesBasicasLibrary/OperacionesBasicasLibrary.csproj",
+  "expectedPackageFiles": [
+    "/Users/valdeirantoniodonascimento/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/valdeirantoniodonascimento/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

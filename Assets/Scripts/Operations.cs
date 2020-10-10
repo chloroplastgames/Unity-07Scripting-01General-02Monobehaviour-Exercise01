@@ -68,23 +68,23 @@ public class Operations : MonoBehaviour
         {
             if(float.TryParse(_secondFactorInput.text, out B))
             { 
-                _resultText.text = Execute(A, B).ToString(); // b = 0 es infinito para divisiones
-                _resultText.color = Color.green;
+                // b = 0 es infinito para divisiones 
+                Resultado(Execute(A, B).ToString(), Color.green);
             }
             else
             {
-                ResultadoInvalido("Invalid SecondFactor");
+                Resultado("Invalid SecondFactor",Color.red);
             }
         }
         else
         {
-            ResultadoInvalido("Invalid FirstFactor");
+            Resultado("Invalid FirstFactor", Color.red);
         }
     }
 
-    private void ResultadoInvalido(string msg)
+    private void Resultado(string msg, Color cor)
     {
         _resultText.text = msg;
-        _resultText.color = Color.red;
+        _resultText.color = cor;
     }
 }
