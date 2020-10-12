@@ -46,27 +46,27 @@ public class Operations : MonoBehaviour
         switch (_dropdownOperation.value)
         {
             case 0:
-                ValidarOperacion(Operaciones.Sumar);
+                ValidarOperacion(Operaciones.Sumar,_firstFactorInput.text,_secondFactorInput.text);
                 return;
             case 1:
-                ValidarOperacion(Operaciones.Restar);
+                ValidarOperacion(Operaciones.Restar, _firstFactorInput.text, _secondFactorInput.text);
                 return;
             case 2:
-                ValidarOperacion(Operaciones.Multiplicar);
+                ValidarOperacion(Operaciones.Multiplicar, _firstFactorInput.text, _secondFactorInput.text);
                 return;
             case 3:
-                ValidarOperacion(Operaciones.Dividir);
+                ValidarOperacion(Operaciones.Dividir, _firstFactorInput.text, _secondFactorInput.text);
                 return;
         }
     }
 
-    private void ValidarOperacion(Func<float,float,float> Execute )
+    private void ValidarOperacion(Func<float,float,float> Execute, string FirstFactor, string SecondFactor )
     {
         float A, B;
 
-        if(float.TryParse(_firstFactorInput.text,out A))
+        if(float.TryParse(FirstFactor,out A))
         {
-            if(float.TryParse(_secondFactorInput.text, out B))
+            if(float.TryParse(SecondFactor, out B))
             { 
                 // b = 0 es infinito para divisiones 
                 Resultado(Execute(A, B).ToString(), Color.green);
