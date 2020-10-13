@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "xCayRKnMfHOoergC0bgbbLNq4TuVzm+NaJ2JRep3JnCLWD/MUycrQl9Nh/mt/J6afRVCvmuyzuQHS+8pvPCLLw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rafae\\source\\repos\\BasicOperations\\BasicOperations\\BasicOperations.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rafae\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\rafae\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

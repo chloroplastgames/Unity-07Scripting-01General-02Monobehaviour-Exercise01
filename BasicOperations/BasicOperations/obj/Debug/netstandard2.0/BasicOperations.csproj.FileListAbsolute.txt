@@ -1,0 +1,9 @@
+C:\Users\rafae\source\repos\BasicOperations\BasicOperations\bin\Debug\netstandard2.0\BasicOperations.deps.json
+C:\Users\rafae\source\repos\BasicOperations\BasicOperations\bin\Debug\netstandard2.0\BasicOperations.dll
+C:\Users\rafae\source\repos\BasicOperations\BasicOperations\bin\Debug\netstandard2.0\BasicOperations.pdb
+C:\Users\rafae\source\repos\BasicOperations\BasicOperations\obj\Debug\netstandard2.0\BasicOperations.csprojAssemblyReference.cache
+C:\Users\rafae\source\repos\BasicOperations\BasicOperations\obj\Debug\netstandard2.0\BasicOperations.AssemblyInfoInputs.cache
+C:\Users\rafae\source\repos\BasicOperations\BasicOperations\obj\Debug\netstandard2.0\BasicOperations.AssemblyInfo.cs
+C:\Users\rafae\source\repos\BasicOperations\BasicOperations\obj\Debug\netstandard2.0\BasicOperations.csproj.CoreCompileInputs.cache
+C:\Users\rafae\source\repos\BasicOperations\BasicOperations\obj\Debug\netstandard2.0\BasicOperations.dll
+C:\Users\rafae\source\repos\BasicOperations\BasicOperations\obj\Debug\netstandard2.0\BasicOperations.pdb
