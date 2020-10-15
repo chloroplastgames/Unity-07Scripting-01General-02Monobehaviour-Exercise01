@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
-using System;
 using SimpleLibrary;
 
 public class CanvasController : MonoBehaviour
