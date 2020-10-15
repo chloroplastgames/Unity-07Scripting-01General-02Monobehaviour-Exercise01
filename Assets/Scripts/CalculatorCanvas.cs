@@ -11,26 +11,31 @@ using UnityEngine.Serialization;
 public class CalculatorCanvas : MonoBehaviour
 {
 
-    #region UI Variables
+    #region UI SerializeField Variables
 
+    [SerializeField]
     [FormerlySerializedAs("firsFactorInput")]
-    public InputField firsFactorInput;
-    
+    private InputField firsFactorInput;
+
+    [SerializeField]
     [FormerlySerializedAs("secondFactorInput")]
-    public InputField secondFactorInput;
+    private InputField secondFactorInput;
 
+    [SerializeField]
     [FormerlySerializedAs("dropdown")]
-    public Dropdown dropdown;
+    private Dropdown dropdown;
 
+    [SerializeField]
     [FormerlySerializedAs("resultText")]
-    public Text resultText;
+    private Text resultText;
 
     #endregion
 
+
     #region Private Variables 
 
-    float firsFactor;
-    float secondFactor;
+    private float firsFactor;
+    private float secondFactor;
 
     #endregion
 
