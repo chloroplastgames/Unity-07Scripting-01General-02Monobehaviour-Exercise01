@@ -1,11 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
-using Unity.Profiling;
-using System.Text;
 using MathLibrary;
-using System.Linq;
 using UnityEngine.Serialization;
 
 public class CalculatorCanvas : MonoBehaviour
@@ -35,6 +30,7 @@ public class CalculatorCanvas : MonoBehaviour
     #region Private Variables 
 
     private float firsFactor;
+
     private float secondFactor;
 
     #endregion
@@ -49,7 +45,8 @@ public class CalculatorCanvas : MonoBehaviour
         secondFactor = 0f;
     }
 
-    public void ComputeOperation()
+
+    public void ExecuteOperation()
     {
         if (!CheckFactors()) 
             return;
