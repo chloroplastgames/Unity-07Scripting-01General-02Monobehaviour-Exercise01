@@ -1,0 +1,9 @@
+C:\Users\andkf\Documents\GitHub\Unity-07Scripting-01General-02Monobehaviour-Exercise01\VisualStudio\ClassLibraryProjects\MathLibrary\bin\Debug\netstandard2.0\MathLibrary.deps.json
+C:\Users\andkf\Documents\GitHub\Unity-07Scripting-01General-02Monobehaviour-Exercise01\VisualStudio\ClassLibraryProjects\MathLibrary\bin\Debug\netstandard2.0\MathLibrary.dll
+C:\Users\andkf\Documents\GitHub\Unity-07Scripting-01General-02Monobehaviour-Exercise01\VisualStudio\ClassLibraryProjects\MathLibrary\bin\Debug\netstandard2.0\MathLibrary.pdb
+C:\Users\andkf\Documents\GitHub\Unity-07Scripting-01General-02Monobehaviour-Exercise01\VisualStudio\ClassLibraryProjects\MathLibrary\obj\Debug\netstandard2.0\MathLibrary.csprojAssemblyReference.cache
+C:\Users\andkf\Documents\GitHub\Unity-07Scripting-01General-02Monobehaviour-Exercise01\VisualStudio\ClassLibraryProjects\MathLibrary\obj\Debug\netstandard2.0\MathLibrary.AssemblyInfoInputs.cache
+C:\Users\andkf\Documents\GitHub\Unity-07Scripting-01General-02Monobehaviour-Exercise01\VisualStudio\ClassLibraryProjects\MathLibrary\obj\Debug\netstandard2.0\MathLibrary.AssemblyInfo.cs
+C:\Users\andkf\Documents\GitHub\Unity-07Scripting-01General-02Monobehaviour-Exercise01\VisualStudio\ClassLibraryProjects\MathLibrary\obj\Debug\netstandard2.0\MathLibrary.csproj.CoreCompileInputs.cache
+C:\Users\andkf\Documents\GitHub\Unity-07Scripting-01General-02Monobehaviour-Exercise01\VisualStudio\ClassLibraryProjects\MathLibrary\obj\Debug\netstandard2.0\MathLibrary.dll
+C:\Users\andkf\Documents\GitHub\Unity-07Scripting-01General-02Monobehaviour-Exercise01\VisualStudio\ClassLibraryProjects\MathLibrary\obj\Debug\netstandard2.0\MathLibrary.pdb
